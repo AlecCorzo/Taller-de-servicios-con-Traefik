@@ -11,4 +11,4 @@ interno).
 ● Traefik con entrypoint web (:80).
 
 
-![Imagen 1](ruta)
+![Imagen 1](imagen1)
