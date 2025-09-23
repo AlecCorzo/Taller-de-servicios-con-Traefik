@@ -29,7 +29,7 @@ http: /api.localhost/v1/.
 
 ![Imagen 3](imagen3)
 
-Se muestra el curl con el status y que responde a 200-
+Se muestra el curl con el status y que responde a 200
 
 ![Imagen 4](imagen4)
 
