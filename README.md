@@ -41,9 +41,9 @@ solicita credenciales o es inaccesible si no pasa por el middleware de protecci�
 ● stripPrefix si usan prefijos tipo /api o /dashboard.
 ● rateLimit para la API (p. ej., limitar a X req/seg)
 
-![Imagen 5](imagen5)
+![Imagen 5](imagen5.jpg)
 
-![Imagen 6](imagen6)
+![Imagen 6](imagen6.jpg)
 
 
 ### 4) Balanceo (réplicas de la API)
@@ -51,7 +51,7 @@ solicita credenciales o es inaccesible si no pasa por el middleware de protecci�
 ● Verificar con varias peticiones que se reparten entre instancias (hostnames
 distintos, logs, o contador).
 
-![Imagen 7](imagen7)
+![Imagen 7](imagen7.jpg)
 
 
 ### 5) Descubrimiento automático
@@ -60,23 +60,23 @@ routers, middlewares y service.
 ● Al escalar la API (p. ej., -scale api=2), Traefik detecta las nuevas
 réplicas sin reiniciarse.
 
-![Imagen 8](imagen8)
+![Imagen 8](imagen8.jpg)
 
 
 
 ### 6) Observabilidad y pruebas
 ● Endpoint /health en la API (200 OK).
-![Imagen 9](imagen9)
+![Imagen 9](imagen9.jpg)
 
 ● Probar: listar/crear en su API.
-![Imagen 10](imagen10)
-![Imagen 11](imagen11)
+![Imagen 10](imagen10.jpg)
+![Imagen 11](imagen11.jpg)
 
 ● Comprobar en el dashboard: Routers, Services, Middlewares activos.
 
-![Imagen 11](imagen12)
-![Imagen 11](imagen13)
-![Imagen 11](imagen14)
+![Imagen 11](imagen12.jpg)
+![Imagen 11](imagen13.jpg)
+![Imagen 11](imagen14.jpg)
 
 
 
